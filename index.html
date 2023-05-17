@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg bg-dark text-bg-dark fixed-top"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">César Pineda</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#portfolio"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#aboutme"
+                  >Acerca de mí</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#contacto"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section
+      class="container-fluid d-flex justify-content-center flex-column align-items-center p-3 mt-5"
+    >
+      <div class="card-group">
+        <div class="card border-0 rounded-circle" style="width: 18rem">
+          <img
+            src="./img/foto-1.jpg"
+            class="card-img-top rounded-circle foto shadow-lg"
+            alt="foto del porfolio"
+          />
+        </div>
+      </div>
+      <div class="card-body text-center">
+        <h2>César Pineda</h2>
+        <p class="card-text">Analista Funcional | Desarrollador Web</p>
+        <p class="card-text">HTML | CSS | JAVASCRIPT | NODEJS | MYSQL</p>
+      </div>
+    </section>
+    <!-- PORTFOLIO -->
+    <section
+      id="portfolio"
+      class="container-fluid d-flex justify-content-center align-items-center bg-dark-subtle p-5  pt-5 pb-5 mb-5" 
+    >
+      <div class="row gap-3 justify-content-center " >
+        <h1 class="text-center ">Portfolio</h1>
+        <div class="col-xl-3 col-md-6 col-sm-12 shadow p-1 rounded-2  bg-light-subtle ">
+          <div class="card-work w-100 ">
+            <img
+              src="./img/aventura.jpg"
+              class="card-img-top rounded-top-2 imgportfolio"
+              alt="imagen de un living con el aire acondicionado alaska"
+            />
+            <div class="card-body">
+              <a
+                href="https://tp-02-2-elige-tu-propia-aventura.netlify.app/"
+                class="btn badge btn-primary"
+                target="_blank"
+                >Ver</a
+              >
+            </div>
+            <h4>Elige tu propia aventura </h4>
+            <p class="p-2">
+              Es un cuento donde acompañas a Sara a elegir que hacer cuando su papá deja de trabaja.
+            </p>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-sm-12 shadow p-1 rounded-2 bg-light-subtle">
+          <div class="card-work w-100">
+            <img
+              src="./img//_MG_17182.jpg"
+              class="card-img-top rounded-top-2"
+              alt="imagen de un living con el aire acondicionado alaska"
+            />
+            <div class="card-body">
+              <a
+                href="https://tp-04-landing-page.netlify.app/"
+                class="btn badge btn-primary"
+                target="_blank"
+                >Ver</a
+              >
+            </div>
+            <h4>LANDING PAGE</h4>
+            <p class="p-2">
+              Esta landing page fue realizado para el desafío de Plataforma 5 con fotografías de <em><b>Eber Cornel</b></em>.
+            </p>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-sm-12 shadow p-1 rounded-2 bg-light-subtle">
+          <div class="card-work w-100">
+            <img
+              src="./img/instaPet.jpg"
+              class="card-img-top rounded-top-2"
+              alt="imagen de un living con el aire acondicionado alaska"
+            />
+            <div class="card-body">
+              <a
+                href="https://tp-03-desafio-03-instapet.netlify.app/"
+                class="btn badge btn-primary"
+                target="_blank"
+                >Ver</a
+              >
+            </div>
+            <h4>InstaPet</h4>
+            <p class="p-2">
+              Es un desafío de la Plataforma 5 para registrar sus macotas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT ME -->
+    <section id="aboutme" class="container-fluid">
+      <div class="row d-flex justify-content-center">
+        <div class="col-sm-10 p-5 mb-5 text-center">
+          <h1>Acerca de mi</h1>
+          <p class="lead">
+            <p>¡Hola! Soy César Pineda trabajo como Analista Funcional con un gran interés por la programación. Mi objetivo es combinar mis habilidades analíticas con mi conocimiento en desarrollo web para crear soluciones efectivas y orientadas al usuario.</p>
+            <p>Con experiencia en HTML, JavaScript, CSS, Bootstrap y Node.js, disfruto trabajando en proyectos que desafían mi creatividad y me permiten desarrollar aplicaciones web dinámicas y funcionales. Me emociona aprender nuevas tecnologías y mantenerme actualizado/a en las últimas tendencias del desarrollo web.</p>
+            <p>Como analista funcional, tengo un enfoque detallado y orientado a los resultados. Me gusta colaborar con equipos multidisciplinarios, traduciendo las necesidades de los usuarios en requerimientos técnicos claros y soluciones efectivas.</p>
+            <p>Fuera del trabajo, disfruto explorar nuevos proyectos de programación y seguir ampliando mi conjunto de habilidades. </p>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="">
+      <form
+        action="https://formspree.io/f/xdovbrzj"
+        method="POST"
+        class="container-fluid d-flex justify-content-center align-items-center bg-dark-subtle text-bg-dark p-5"
+        id="contacto"
+      >
+        <div class="row contacto">
+          <div class="d-md-flex gap-2">
+            <div class="col my-2">
+              <label for="nombre">Nombre</label>
+              <input
+                id="nombre"
+                type="text"
+                name="nombre"
+                class="form-control"
+                placeholder="Nombre"
+                aria-label="First name" required
+              />
+            </div>
+            <div class="col my-2">
+              <label for="apellido">Apellido</label>
+              <input
+                id="apellido"
+                type="text"
+                name="apellido"
+                class="form-control"
+                placeholder="Apellido"
+                aria-label="Last name" required
+              />
+            </div>
+          </div>
+          <div class="d-md-flex gap-2">
+            <div class="col my-2">
+              <label for="email">Correo</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                class="form-control"
+                placeholder="Correo@Correo.com"
+                aria-label="First name" required
+              />
+            </div>
+            <div class="col my-2">
+              <label for="telefono">Telefono</label>
+              <input
+                id="telefono"
+                name="telefono"
+                type="number"
+                class="form-control"
+                placeholder="Telefono"
+                aria-label="Last name" required
+              />
+            </div>
+          </div>
+          <div class="col">
+            <label for="area">Mensaje</label>
+
+            <textarea
+              class="form-control"
+              name="mensaje"
+              placeholder="Deja tu mensaje"
+              id="area"
+              style="height: 100px" required
+            ></textarea>
+
+            <div class="d-grid p-3">
+              <button
+                class="btn text-light"
+                style="background-color: #0d770485"
+                type="submit"
+              >
+                Enviar
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </section>
+    <!-- Contacto -->
+    <section class="container-fluid direccion" >
+      <div class="row align-items-center text-center justify-content-evenly my-5 direccion p-0 m-0 ">
+        <div class="col-md-3 col-lg-2 my-0 ">
+          <h2 >Dirección</h2>
+          <p>Berrardo de Irigoyen CABA</p>
+        </div>
+        <div class="col-md-3 col-lg-2 ">
+          <a href="https://www.linkedin.com/in/cesarpinedachacon" target="_blank"
+            ><img
+              class="logos"
+              src="https://cdn-icons-png.flaticon.com/512/2582/2582575.png"
+              alt=""
+          /></a>          
+          <a href="https://api.whatsapp.com/send?phone=1123919079" target="_blank"
+            ><img
+              class="logos"
+              src="https://img.freepik.com/iconos-gratis/whatsapp_318-162854.jpg"
+              alt=""
+          /></a>
+          <a href="https://github.com/pineda04" target="_blank"
+            ><img
+              class="logos"
+              src="https://cdn.freebiesupply.com/logos/large/2x/github-icon-logo-svg-vector.svg"
+              alt=""
+          /></a>
+        </div>
+
+      </div>
+    </section>
+    <footer class="bg-dark text-light text-center text-bg-dark">
+      <p class="justify-content-evenly p-3 my-0 ">cpineda.com &copy; 2023 - Todos los derechos reservados</p>
+    </footer>
+  </body>  
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"
+  ></script>
+</html>

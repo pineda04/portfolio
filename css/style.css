@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(119, 214, 214);
+}
+
+.logos {
+  width: 1.5rem;
+  height: auto;
+}
+
+.contacto {
+  width: 50%;
+}
+
+
+
+@media screen and (max-width: 769px) {
+  .contacto {
+    width: 75%;
+  } 
+    
+}
